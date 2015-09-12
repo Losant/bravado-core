@@ -1,6 +1,6 @@
 {
   "name": "bravado-core",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "REST (Level 3/HATEOAS) API Framework",
   "directories": {
     "lib": "lib"
@@ -30,11 +30,12 @@
     "defaults": "^1.0.2",
     "error": "^7.0.2",
     "intersect": "^1.0.1",
+    "is-my-json-valid": "^2.12.2",
+    "js-yaml": "^3.4.0",
+    "json-refs": "^1.0.5",
     "jsonwebtoken": "^5.0.5",
     "object-assign": "^3.0.0",
     "q": "^1.4.1",
-    "uri-template": "^1.0.0",
-    "js-yaml": "^3.4.0",
-    "json-refs": "^1.0.5"
+    "uri-template": "^1.0.0"
   }
 }
