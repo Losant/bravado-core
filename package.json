@@ -20,11 +20,9 @@
   },
   "keywords": [
     "rest",
-    "client",
+    "restful",
     "server",
-    "api",
-    "lambda",
-    "aws"
+    "api"
   ],
   "dependencies": {
     "defaults": "^1.0.2",
