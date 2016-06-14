@@ -32,6 +32,8 @@
     "js-yaml": "^3.5.2",
     "json-refs": "^2.0.4",
     "jsonwebtoken": "^5.5.4",
+    "lodash.camelcase": "^4.1.1",
+    "node-dir": "^0.1.12",
     "object-assign": "^3.0.0",
     "q": "^1.4.1",
     "traverse": "^0.6.6",
