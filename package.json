@@ -25,16 +25,15 @@
     "api"
   ],
   "dependencies": {
-    "defaults": "^1.0.2",
+    "defaults": "^1.0.3",
     "error": "^7.0.2",
-    "intersect": "^1.0.1",
+    "lodash": "^4.17.4",
     "is-my-json-valid": "^2.12.4",
     "js-yaml": "^3.5.2",
     "json-refs": "^2.0.4",
     "jsonwebtoken": "^5.5.4",
-    "lodash.camelcase": "^4.1.1",
     "node-dir": "^0.1.12",
-    "object-assign": "^3.0.0",
+    "object-assign": "^4.1.0",
     "q": "^1.4.1",
     "traverse": "^0.6.6",
     "uri-template": "^1.0.0"
