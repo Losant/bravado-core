@@ -1,6 +1,6 @@
 {
   "name": "bravado-core",
-  "version": "0.13.4",
+  "version": "0.13.5",
   "description": "REST (Level 3/HATEOAS) API Framework",
   "directories": {
     "lib": "lib"
