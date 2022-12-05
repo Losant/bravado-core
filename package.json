@@ -45,7 +45,6 @@
     "lodash": "^4.17.15",
     "node-dir": "^0.1.17",
     "object-assign": "^4.1.1",
-    "q": "^1.5.1",
     "traverse": "^0.6.7",
     "uri-template": "^2.0.0"
   },
