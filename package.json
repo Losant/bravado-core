@@ -42,7 +42,7 @@
     "is-my-json-valid": "^2.20.6",
     "js-yaml": "^3.14.1",
     "json-refs": "^3.0.15",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.21",
     "node-dir": "^0.1.17",
     "object-assign": "^4.1.1",
