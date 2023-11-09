@@ -59,10 +59,5 @@
     "rules": {
       "guard-for-in": "off"
     }
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
