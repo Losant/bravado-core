@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "reinstall": "rm -rf node_modules && yarn install",
-    "lint": "esw . --ext .js",
+    "lint": "eslint . --ext .js",
     "lint:fix": "yarn lint --fix",
     "lint:watch": "yarn lint --watch",
     "lint:changed": "lint-staged",
@@ -35,7 +35,7 @@
     "api"
   ],
   "lint-staged": {
-    "*.js": "esw"
+    "*.js": "eslint"
   },
   "dependencies": {
     "error": "^7.2.1",
@@ -50,14 +50,8 @@
     "uri-template": "^2.0.0"
   },
   "devDependencies": {
-    "@losant/eslint-config-losant": "^1.6.1",
+    "@losant/eslint-config-losant": "^2.0.1",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3"
-  },
-  "eslintConfig": {
-    "extends": "@losant/eslint-config-losant/env/esm",
-    "rules": {
-      "guard-for-in": "off"
-    }
   }
 }
