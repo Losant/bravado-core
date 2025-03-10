@@ -1,6 +1,6 @@
 {
   "name": "bravado-core",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "REST (Level 3/HATEOAS) API Framework",
   "directories": {
     "lib": "lib"
@@ -8,9 +8,8 @@
   "type": "module",
   "scripts": {
     "reinstall": "rm -rf node_modules && yarn install",
-    "lint": "esw . --ext .js",
+    "lint": "eslint . --ext .js",
     "lint:fix": "yarn lint --fix",
-    "lint:watch": "yarn lint --watch",
     "lint:changed": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
@@ -35,29 +34,23 @@
     "api"
   ],
   "lint-staged": {
-    "*.js": "esw"
+    "*.js": "eslint"
   },
   "dependencies": {
     "error": "^7.2.1",
-    "fs-extra": "^11.2.0",
+    "fast-jwt": "^5.0.5",
+    "fs-extra": "^11.3.0",
     "is-my-json-valid": "^2.20.6",
     "js-yaml": "^4.1.0",
     "json-refs": "^3.0.15",
-    "jsonwebtoken": "^9.0.2",
     "lodash": "^4.17.21",
     "node-dir": "^0.1.17",
-    "traverse": "^0.6.8",
+    "traverse": "^0.6.11",
     "uri-template": "^2.0.0"
   },
   "devDependencies": {
-    "@losant/eslint-config-losant": "^1.6.1",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2"
-  },
-  "eslintConfig": {
-    "extends": "@losant/eslint-config-losant/env/esm",
-    "rules": {
-      "guard-for-in": "off"
-    }
+    "@losant/eslint-config-losant": "^2.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3"
   }
 }
