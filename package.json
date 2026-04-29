@@ -37,6 +37,7 @@
     "*.js": "eslint"
   },
   "dependencies": {
+    "convict": "^6.2.5",
     "error": "^7.2.1",
     "fast-jwt": "^6.2.3",
     "fs-extra": "^11.3.4",
