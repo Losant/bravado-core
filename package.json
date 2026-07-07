@@ -1,6 +1,6 @@
 {
   "name": "bravado-core",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "description": "REST (Level 3/HATEOAS) API Framework",
   "directories": {
     "lib": "lib"
@@ -14,9 +14,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@11.10.0",
   "main": "lib/index.js",
   "author": "Losant <hello@losant.com>",
   "license": "MIT",
@@ -53,6 +53,6 @@
   "devDependencies": {
     "@losant/eslint-config-losant": "^2.1.0",
     "husky": "^9.1.7",
-    "lint-staged": "^16.4.0"
+    "lint-staged": "^17.0.8"
   }
 }
