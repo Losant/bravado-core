@@ -37,12 +37,13 @@
     "*.js": "eslint"
   },
   "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
     "convict": "^6.2.5",
     "error": "^7.2.1",
     "fast-jwt": "^6.2.4",
-    "fs-extra": "^11.3.5",
-    "is-my-json-valid": "^2.20.6",
-    "js-yaml": "^4.2.0",
+    "fs-extra": "^11.3.6",
+    "js-yaml": "^4.3.0",
     "json-refs": "^3.0.15",
     "lodash": "^4.18.1",
     "node-dir": "^0.1.17",
