@@ -343,14 +343,8 @@
         "maximum": {
           "$ref": "#/definitions/maximum"
         },
-        "exclusiveMaximum": {
-          "$ref": "#/definitions/exclusiveMaximum"
-        },
         "minimum": {
           "$ref": "#/definitions/minimum"
-        },
-        "exclusiveMinimum": {
-          "$ref": "#/definitions/exclusiveMinimum"
         },
         "maxLength": {
           "$ref": "#/definitions/maxLength"
@@ -483,14 +477,8 @@
         "maximum": {
           "$ref": "#/definitions/maximum"
         },
-        "exclusiveMaximum": {
-          "$ref": "#/definitions/exclusiveMaximum"
-        },
         "minimum": {
           "$ref": "#/definitions/minimum"
-        },
-        "exclusiveMinimum": {
-          "$ref": "#/definitions/exclusiveMinimum"
         },
         "maxLength": {
           "$ref": "#/definitions/maxLength"
@@ -576,14 +564,8 @@
         "maximum": {
           "$ref": "#/definitions/maximum"
         },
-        "exclusiveMaximum": {
-          "$ref": "#/definitions/exclusiveMaximum"
-        },
         "minimum": {
           "$ref": "#/definitions/minimum"
-        },
-        "exclusiveMinimum": {
-          "$ref": "#/definitions/exclusiveMinimum"
         },
         "maxLength": {
           "$ref": "#/definitions/maxLength"
@@ -669,14 +651,8 @@
         "maximum": {
           "$ref": "#/definitions/maximum"
         },
-        "exclusiveMaximum": {
-          "$ref": "#/definitions/exclusiveMaximum"
-        },
         "minimum": {
           "$ref": "#/definitions/minimum"
-        },
-        "exclusiveMinimum": {
-          "$ref": "#/definitions/exclusiveMinimum"
         },
         "maxLength": {
           "$ref": "#/definitions/maxLength"
@@ -763,14 +739,8 @@
         "maximum": {
           "$ref": "http://json-schema.org/draft-04/schema#/properties/maximum"
         },
-        "exclusiveMaximum": {
-          "$ref": "http://json-schema.org/draft-04/schema#/properties/exclusiveMaximum"
-        },
         "minimum": {
           "$ref": "http://json-schema.org/draft-04/schema#/properties/minimum"
-        },
-        "exclusiveMinimum": {
-          "$ref": "http://json-schema.org/draft-04/schema#/properties/exclusiveMinimum"
         },
         "maxLength": {
           "$ref": "http://json-schema.org/draft-04/schema#/definitions/positiveInteger"
@@ -888,14 +858,8 @@
         "maximum": {
           "$ref": "#/definitions/maximum"
         },
-        "exclusiveMaximum": {
-          "$ref": "#/definitions/exclusiveMaximum"
-        },
         "minimum": {
           "$ref": "#/definitions/minimum"
-        },
-        "exclusiveMinimum": {
-          "$ref": "#/definitions/exclusiveMinimum"
         },
         "maxLength": {
           "$ref": "#/definitions/maxLength"
@@ -1024,14 +988,8 @@
     "maximum": {
       "$ref": "http://json-schema.org/draft-04/schema#/properties/maximum"
     },
-    "exclusiveMaximum": {
-      "$ref": "http://json-schema.org/draft-04/schema#/properties/exclusiveMaximum"
-    },
     "minimum": {
       "$ref": "http://json-schema.org/draft-04/schema#/properties/minimum"
-    },
-    "exclusiveMinimum": {
-      "$ref": "http://json-schema.org/draft-04/schema#/properties/exclusiveMinimum"
     },
     "maxLength": {
       "$ref": "http://json-schema.org/draft-04/schema#/definitions/positiveInteger"
