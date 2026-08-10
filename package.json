@@ -16,7 +16,7 @@
   "engines": {
     "node": ">=22"
   },
-  "packageManager": "pnpm@11.10.0",
+  "packageManager": "pnpm@11.21.0",
   "main": "lib/index.js",
   "author": "Losant <hello@losant.com>",
   "license": "MIT",
